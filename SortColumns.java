@@ -11,9 +11,6 @@ public class SortColumns{
 	void add(int n){
 		deletedIndex.add(n);
 	}
-	void get(int n){
-		deletedIndex.get(n);
-	}
 	public String toString(){
 		return deletedIndex.toString();
 	}
